@@ -60,24 +60,24 @@ export default function Profile() {
                         <CopyComponent name={"Name"} val={data.education.college.name} />
                         <CopyComponent name={"Location"} val={data.education.college.location} />
                         <CopyComponent name={"Course"} val={data.education.college.course} />
-                        <CopyComponent name={"CGPA"} val={data.education.college.marks} />
+                        <CopyComponent name={"Marks"} val={data.education.college.marks} />
                         <CopyComponent name={"Passing Year"} val={data.education.college.passingYear} />
                     </div>
                     <div className="ml-8 flex gap-8">
                         <p className="text-yellow-500">_____XII</p>
                         <CopyComponent name={"Name"} val={data.education.XII.name} />
                         <CopyComponent name={"Location"} val={data.education.XII.location} />
-                        <CopyComponent name={"Board"} val={data.education.XII.board} />
-                        <CopyComponent name={"Year"} val={data.education.XII.year} />
+                        <CopyComponent name={"_Board"} val={data.education.XII.board} />
                         <CopyComponent name={"Marks"} val={data.education.XII.marks} />
+                        <CopyComponent name={"Passing Year"} val={data.education.XII.year} />
                     </div>
                     <div className="ml-8 flex gap-8">
                         <p className="text-yellow-500">_______X   </p>
                         <CopyComponent name={"Name"} val={data.education.X.name} />
                         <CopyComponent name={"Location"} val={data.education.X.location} />
-                        <CopyComponent name={"Board"} val={data.education.X.board} />
-                        <CopyComponent name={"Year"} val={data.education.X.year} />
+                        <CopyComponent name={"_Board"} val={data.education.X.board} />
                         <CopyComponent name={"Marks"} val={data.education.X.marks} />
+                        <CopyComponent name={"Passing Year"} val={data.education.X.year} />
                     </div>
 
 
