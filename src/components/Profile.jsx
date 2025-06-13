@@ -38,15 +38,15 @@ export default function Profile() {
                     <div className="ml-8 flex gap-8">
                         <p className="text-yellow-500">_______Original</p>
                         <CopyComponent name={"Street"} val={data.addresses.original.street} />
-                        <CopyComponent name={"City"} val={data.about.weaness} />
-                        <CopyComponent name={"Zip-Code"} val={data.about.description} />
+                        <CopyComponent name={"City"} val={data.addresses.original.city} />
+                        <CopyComponent name={"Zip-Code"} val={data.addresses.original["zip-code"]} />
                     </div>
 
                     <div className="ml-8 flex gap-8">
                         <p className="text-yellow-500">_Correspondence</p>
-                        <CopyComponent name={"Street"} val={data.about.strength} />
-                        <CopyComponent name={"City"} val={data.about.weakness} />
-                        <CopyComponent name={"Zip-Code"} val={data.about.description} />
+                        <CopyComponent name={"Street"} val={data.addresses.correspondence.street} />
+                        <CopyComponent name={"City"} val={data.addresses.correspondence.city} />
+                        <CopyComponent name={"Zip-Code"} val={data.addresses.correspondence["zip-code"]} />
                     </div>
 
 
