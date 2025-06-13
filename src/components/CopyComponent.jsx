@@ -11,7 +11,11 @@ export default function CopyComponent({ name, val }) {
     };
 
     return (
-        <div className="select-none relative group w-max cursor-pointer" onClick={handleCopy}>
+        <div
+            className="select-none relative group w-max cursor-pointer"
+            onClick={handleCopy}
+            title={val}
+        >
             <p className="text-white hover:text-emerald-600 transition">{name}</p>
 
             {copied && (
