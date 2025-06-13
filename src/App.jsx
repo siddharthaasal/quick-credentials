@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <p className=' text-2xl text-white m-12 italic'>~quick-creds</p>
+      <p className=' text-2xl text-white m-12 italic'>~quick-tap-creds</p>
       <Profile />
       <Footer />
     </>
