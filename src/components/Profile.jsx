@@ -3,7 +3,7 @@ import CopyComponent from "./CopyComponent";
 
 export default function Profile() {
     return (
-        <div className="ml-2 sm:ml-4 md:ml-16">
+        <div className="ml-2 sm:ml-4 md:ml-16 select-none">
             {/* Name Section */}
             <div className="text-white text-2xl sm:text-3xl ml-8 sm:ml-16 flex flex-wrap gap-4 sm:gap-8">
                 <div className="text-emerald-400 font-bold">
