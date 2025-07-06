@@ -35,6 +35,14 @@ export default function Profile() {
                 </div>
             </div>
 
+            {/* Experience Section */}
+            <div className="text-white text-lg sm:text-xl ml-12 sm:ml-24 mt-6 sm:mt-8">
+                <h2 className="text-xl sm:text-2xl mb-2 text-emerald-400">Experience</h2>
+                <div className="ml-4 sm:ml-8 flex flex-wrap gap-4 sm:gap-8">
+                    <CopyComponent name={"Metacrafters"} val={data.experience.metacrafters.what_i_did} />
+                </div>
+            </div>
+
             {/* Addresses Section */}
             <div className="text-white text-lg sm:text-xl ml-12 sm:ml-24 mt-6 sm:mt-8">
                 <h2 className="text-xl sm:text-2xl mb-2 text-emerald-400">Addresses</h2>
