@@ -21,6 +21,7 @@ export default function Profile() {
                     <CopyComponent name={"LinkedIn"} val={data.socials.linkedin} />
                     <CopyComponent name={"Leetcode"} val={data.socials.leetcode} />
                     <CopyComponent name={"Medium"} val={data.socials.medium} />
+                    <CopyComponent name={"Discord"} val={data.socials.discord} />
                 </div>
             </div>
 
